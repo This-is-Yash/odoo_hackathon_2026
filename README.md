@@ -7,7 +7,7 @@ The problem companies actually have isn't just "no software" — it's that exist
 
 ---
 
-<img width="917" height="466" alt="image" src="https://github.com/user-attachments/assets/b61181b8-adcc-443a-9071-7c2e3cdf276e" />
+<img width="845" height="613" alt="image" src="https://github.com/user-attachments/assets/58abddf3-a34c-4ef4-90eb-04cd94f7979d" />
 
 ---
 
@@ -144,7 +144,7 @@ Integer PKs across the board — index size is roughly 9× smaller than UUID whi
 
 ## Approval flow
 
-<img width="1038" height="533" alt="image" src="https://github.com/user-attachments/assets/0e59910b-daf0-47bd-b3e1-37ef7d295f39" />
+<img width="907" height="621" alt="image" src="https://github.com/user-attachments/assets/44d94d4b-ab25-4436-a1ad-48de0aa31a62" />
 
 The engine runs after every approver action. It checks the condition, decides if the expense should advance to the next step or resolve early, and logs every state change to `audit_logs`. Rejections anywhere in the chain end it immediately.
 
