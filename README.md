@@ -1,4 +1,4 @@
-[README_ODOO.md](https://github.com/user-attachments/files/26330685/README_ODOO.md)
+
 # ReimburseIQ
 
 A full-stack expense reimbursement system built for the **Odoo × VIT Pune Hackathon 2026**.
@@ -99,14 +99,9 @@ EXCHANGERATE_API_KEY=your_key_here
 ## Project structure
 
 ```
-reimburseiq/
-├── server.js              # Express entry point
-├── db.js                  # PostgreSQL pool (pg)
-├── routes/
-│   └── auth.js            # /register /login /me /countries
-│
-└── client/
-    └── src/
+└── src/
+        ├── routes/
+            └── auth.js api.js 
         ├── api.js                  # All API calls in one place
         ├── App.js                  # Route switching + auth guard
         ├── context/
@@ -189,17 +184,15 @@ Seed the DB with `node db/seed.js` (company: Acme Corp, currency: INR).
 
 ---
 
----
 
 ## Team
 
 | Name | What they built |
 |------|----------------|
-| Member 1 | Backend — auth, users, company setup, countries API |
-| Member 2 | Backend — approval engine, currency conversion, audit trail |
-| Member 3 | Frontend — expense submission, OCR flow, manager approval UI |
-| Member 4 | Frontend — admin panel, rule builder, dashboard, CSS |
+| Yash Pathak | Backend — auth, users, company setup, countries API |
+| Anish Wagle | Backend — approval engine, currency conversion, audit trail |
+| Rishi Mane | Frontend — expense submission, OCR flow, manager approval UI |
+| Smit Chavan | Frontend — admin panel, rule builder, dashboard, CSS |
 
 ---
 
-Built in 24 hours. Odoo × VIT Pune Hackathon 2026.
